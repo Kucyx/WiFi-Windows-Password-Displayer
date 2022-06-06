@@ -45,13 +45,9 @@ def display_wifis(wifis):
         print(f"Password : {wifi['password']}")
         print(f"Authentication : {wifi['authentication']}")
     print("_"*50)
-    print("\n Kucyx Pozdrawia")
     
 # print(command.decode("437"))
 if __name__ == "__main__":
     from os import system
     system("cls")
-    print("Windows Password Getter by. Kucyx Hewooo")
-    from time import sleep
-    sleep(2)
     wifis = get_password()
